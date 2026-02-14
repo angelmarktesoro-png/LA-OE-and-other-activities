@@ -1,0 +1,15 @@
+print("Login System with Access Level")
+
+username = "abcd@gmail.com"
+password = "1234abcd"
+
+user = input("Enter your Username: ")
+
+if user == username:
+    pwd = input("Enter your Password: ")
+    if pwd == password:
+        print("Welcome! Login Successful.")
+    else:
+        print("Incorrect Password.")
+else: 
+    print("User not Found.")
