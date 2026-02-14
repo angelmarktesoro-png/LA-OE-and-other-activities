@@ -1,0 +1,38 @@
+x = int(input("Enter first integer (x): "))
+y = int(input("Enter second integer (y): "))
+
+#(>)
+if x > y:
+    print(x, ">", y, "=", "True")
+else:
+    print(x, ">", y, "=", "False")
+
+#(>=)
+if x >= y:
+    print(x, ">=", y, "=", "True")
+else:
+    print(x, ">=", y, "=", "False")
+
+#(<)
+if x < y:
+    print(x, "<", y, "=", "True")
+else:
+    print(x, "<", y, "=", "False")
+
+#(<=)
+if x <= y:
+    print(x, "<=", y, "=", "True")
+else:
+    print(x, "<=", y, "=", "False")
+    
+#(==)
+if x == y:
+    print(x, "==", y, "=", "True")
+else:
+    print(x, "==", y, "=", "False")
+    
+#(!=)
+if x != y:
+    print(x, "!=", y, "=", "True")
+else:
+    print(x, "!=", y, "=", "False")
