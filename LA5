@@ -1,0 +1,13 @@
+print("Grade Calculator Program")
+grade = int(input("Enter your grade (0-100): "))
+
+if 90 <= grade <= 100:
+    print("Score: " + str(grade) + " Grade: A+ — Unbelievable!")
+elif 80 <= grade <= 89:
+    print("Score: " + str(grade) + " Grade: A- — Outstanding!")
+elif 70 <= grade <= 79:
+    print("Score: " + str(grade) + " Grade: B+ — Very good!")
+elif 60 <= grade <= 69:
+    print("Score: " + str(grade) + " Grade: B- — Do better next time!")
+else: 
+    print("Invalid input")
