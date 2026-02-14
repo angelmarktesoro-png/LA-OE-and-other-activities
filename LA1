@@ -1,0 +1,3 @@
+years =  float(input("Enter Years: "))
+seconds = years * 365 * 24 * 60 * 60
+print(int(seconds))
