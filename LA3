@@ -1,0 +1,10 @@
+print("Temperature Checker Program")
+
+temp = int(input("Enter temperature: "))
+
+if temp >= 30:
+    print("Hot day! Stay hydrated.")
+elif temp <= 10:
+    print("So cold, wear your jacket. ")
+else:
+    print("Pleasant weather!")
