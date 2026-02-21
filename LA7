@@ -1,0 +1,10 @@
+
+fullname = input("Enter your full name: ")
+
+print(len(fullname))
+print(fullname[0::16])
+print(fullname[:5:])
+print(fullname[::-1])
+print(fullname[::2])
+
+# angel mark tesoro
