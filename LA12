@@ -1,0 +1,18 @@
+print("Students Grades in 1st, 2nd, 3rd quiz")
+gradebook = [
+    ["Pablo", 80, 90, 85],
+    ["Miguel", 85, 95, 90],
+    ["Brownie", 75, 80, 70]
+    ]
+print(gradebook)
+
+print(gradebook[1][2]) # prints the quiz 2 of Miguel
+
+update = gradebook[2][1] = 100 # updates the quiz 1 of Brownie to 100
+print(update)
+
+new_student = ["Blackie", 99, 100, 98]
+gradebook.append(new_student) 
+
+for student in gradebook:
+    print(gradebook)
