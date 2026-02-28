@@ -1,0 +1,19 @@
+
+students = ["Juan", "Pablo", "Miguel", "Pusa", "Whitey"]
+print(students)
+
+students.append('Brownie')
+print(students)
+
+students.insert(4, 'Blackie')
+print(students)
+
+students[2] = "Angel"
+print(students)
+
+removed = students.pop(0)
+print(students)
+
+students0 = students.pop(4) # prints the last name (whitey)
+print(students0)
+print(removed)
