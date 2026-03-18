@@ -1,0 +1,18 @@
+
+sentence = input("Enter a sentence: ")
+
+print(sentence.upper())
+print(sentence.lower())
+print(sentence.title())
+
+count = sentence.lower().count('a')
+print(count)
+
+remove = sentence.strip()
+print(remove)
+
+replace = sentence.replace(" ","_")
+print(replace)
+
+split = sentence.split()
+print(split)
