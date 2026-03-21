@@ -1,0 +1,15 @@
+print("Receipt Generator")
+
+item = input("Enter item name: ")
+quantity = int(input("Enter quantity: "))
+price = float(input("Enter unit price: "))
+
+result = quantity * price
+
+print("\n==================")
+print("Receipt Generator")
+print("==================")
+print("Item: " + str(item))
+print("Quantity: " + str(quantity))
+print("Total P" + str(result))
+print("==================")
